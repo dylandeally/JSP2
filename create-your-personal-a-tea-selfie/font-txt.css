@@ -1,0 +1,111 @@
+body {
+	background-color:white;
+	font-family:Verdana,Tahoma,Arial,Sans-Serif;
+	color:white;
+	font-size:14px;
+	text-align:center;
+	align-items:center;
+	
+}
+
+.demo {
+	font-family: 'font-variable','Conv_arbonnie',Sans-Serif;
+	color: #fff899;
+}
+
+h1 {
+  font-family: 'font-variable','Conv_arbonnie',Sans-Serif;
+  font-size: 350%;
+	color: #60929d;
+}
+h2 {
+  font-family: 'font-variable','Conv_arbonnie',Sans-Serif;
+  font-size: 280%;
+	color: #60929d;
+}
+h3 {
+	font-family: 'font-variable','Conv_arbonnie',Sans-Serif;
+	font-size: 220%;
+	color: white;
+	margin-bottom: 0px;
+}
+
+	
+.button {
+	cursor: pointer;
+	border-top: 1px solid #96d1f8;
+	background: #65a9d7;
+	background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+	background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+	background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+	background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+	background: -o-linear-gradient(top, #3e779d, #65a9d7);
+	padding: 13px 26px;
+	/*margin-right: 40px;*/
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	box-shadow: rgba(0,0,0,1) 0 1px 0;
+	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	color: white;
+	font-size: 23px;
+	font-family: 'font-variable', Georgia, serif;
+	/*font-family: Georgia, serif;*/
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.button:hover {
+	border-top-color: #28597a;
+	background: #28597a;
+	color: #ccc;
+}
+
+.button:active {
+	border-top-color: #1b435e;
+	background: #1b435e;
+}
+
+#orderCode {
+	width: 400px;
+	height: 300px;
+	color: #f60;
+	font-weight: bold;
+}
+
+.mesg{
+	font-size: 20px;
+  display: inline-table;
+  position: relative;
+  /*margin: 40px auto;*/
+  /*height: auto;*/
+  width: 730px;
+  /*padding: 20px;*/
+}
+
+.shop-images  {
+  border: 7px solid white;
+  width: 172px;
+  height: 172px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+}
+
+.partner-images  {
+  width: 190px;
+  height: 190px;
+  background-size: 117%;
+  background-position: 50% 51%;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+}
+
+#fSaveAvatar, #fullname, #email, #optin, #fCode {
+	font-size: 1.5em;
+}

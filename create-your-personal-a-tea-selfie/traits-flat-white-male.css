@@ -1,0 +1,368 @@
+@font-face {
+  font-family: 'font-variable';
+  src: url('fonts/revalia_regular.ttf');
+  /*font-weight: 900;*/
+}
+
+body {
+  background: url("images/back-cap-male.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: auto 0;
+  font-family: 'font-variable';
+}
+
+body, html{
+  text-align:center;
+  height: 100%;
+}
+
+.display-avatar {
+  color:white;
+}
+
+#title-heading {
+  color:white;
+}
+
+#sd-heading {
+  margin-top: 45px;
+}
+
+/*gradient*/
+#background-image {
+  border-color: white;
+  background: url("images/gradient-brown.png") no-repeat ; /*gradient*/
+ }
+
+/*genderbutton*/
+.buttons-gender .round {
+  font-size:21px;
+}
+
+/*trait radio container*/
+#containerOutx {
+  width:950px; 
+  padding-left:30px;
+}
+
+#designx {
+  float: left;
+}
+
+#p1 {
+  float: left;
+}
+
+#p2 {
+  float: left;
+}
+
+#p3 {
+  float: left;
+}
+
+#p4 {
+  float: left;
+}
+
+#mbga {
+  position: absolute;
+  top: 0px; /*changed*/
+  /*top: 50px;*/
+  width: 400px;
+  height: 400px;
+}
+#image0 {
+  position: absolute;
+  top: 50px;
+  width: 400px;
+  height: 300px;
+}
+#image1 {
+  position: absolute;
+  top: 50px;
+  width: 400px;
+  height: 300px;
+}
+#image2 {
+  position: absolute;
+  top: 50px;
+  width: 400px;
+  height: 300px;
+}
+#image3 {
+  position: absolute;
+  top: 50px;
+  width: 400px;
+  height: 300px;
+}
+#image4 {
+  position: absolute;
+  top: 50px;
+  width: 400px;
+  height: 300px;;
+}
+#design {
+  position: absolute;
+  top: 0px;
+  /*top: 53px;*/
+  width: 400px;
+  height: 400px;
+  text-align: left;
+  /*margin-left: 3px;*/
+  background-image: url('flat-white-digital-male.jpg');
+}
+
+/*canvas traits styles/positions*/
+#personality-a {
+  position: absolute;
+  top: 35px;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  margin-left: 0px;
+  font-size: 108%;
+  color: #c28f6c;
+}
+#personality-b {
+  position: absolute;
+  top: 20px;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  margin-left: 100px;
+  font-size: 108%;
+  color: #c28f6c;
+}
+#personality-c {
+  position: absolute;
+  top: 32px;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  margin-left: 200px;
+  font-size: 108%;
+  color: #c28f6c;
+}
+#personality-d {
+  position: absolute;
+  top: 20px;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  margin-left: 290px;
+  font-size: 108%;
+  color: #c28f6c;
+}
+#nameMugArea {
+  position: absolute;
+  top: 360px; /*changed*/
+  /*top: 410px;*/
+  width: 400px;
+  height: 50px;
+  text-align: center;
+  font-size: 150%;
+  color: #c28f6c;
+}
+
+#pCode {
+  position: absolute;
+  top: 450px;
+  width: 400px;
+  height: 50px;
+  text-align: center;
+  font-size: 80%;
+  color: #8c6239;
+  padding-left: 30px;
+  font-family: Arial, Georgia, sans-serif;
+}
+
+#checkAvatare {
+  width: 400px;
+  height: auto;
+  text-align: center;
+  font-size: 200%;
+  color: #777;
+}
+
+#gift, #display-avatar {
+  display: none;
+}
+
+
+/*radio buttons(radio1.css)*/
+
+.desRadio ul li{
+  color: white;
+}
+
+/*text when hover*/
+.desRadio ul li:hover label{
+	color: #fff899;
+}
+
+/*outer ring unchecked*/
+.desRadio ul li .check{
+  border: 5px solid #fff899;
+}
+
+/*outer ring hover*/
+.desRadio ul li:hover .check {
+  border: 5px solid white;
+}
+
+/*outer ring when clicked*/
+.desRadio input[type=radio]:checked ~ .check {
+  border: 5px solid #fff899;
+}
+
+/*inside ring when checked*/
+.desRadio input[type=radio]:checked ~ .check::before{
+  background:  white;
+}
+
+/*text when clicked*/
+.desRadio input[type=radio]:checked ~ label{
+  color:  #fff899;
+}
+
+/*Create selfie button*/
+#btnSaveX {
+  margin: 25px 85px 0px 0px;
+  color: #fff899;
+}
+
+#nameButton {
+  font-size: 23px;
+  font-family: 'font-variable', Georgia, serif;
+}
+
+/*current blue*/
+a.current {
+  color: #60929d;
+}
+
+/*current white*/
+a.current2 {
+  color: #f3edc1;
+}
+
+/*current pink*/
+a.current3 {
+  color: rgba(239, 57, 50, 0.75);
+}
+
+#cap-but-text {
+  font-size: 14px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  margin-right: 0px;
+  top: 34px;
+}
+
+#llt-but-text {
+  font-size: 19px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  margin-right: 0px;
+  top: 16px;
+}
+
+#latte-but-text {
+  font-size: 26px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  margin-right: 0px;
+  top: 30px; 
+}
+
+#eg-but-text {
+  font-size: 23px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  margin-right: 0px;
+  top: 17px;
+}
+
+#fw-but-text {
+  font-size: 23px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  margin-right: 0px;
+  top: 17px;
+}
+
+
+.info-text {
+	background-color:white;
+	color:black;
+	font-size:18px;
+}
+
+.titleh1 {
+	font-size: 350%;
+	color: #60929d;
+}
+
+.titleh2 {
+	font-size: 250%;
+  color: #60929d;
+}
+
+.titleh3 {
+	font-size: 210%;
+	color: #60929d;
+}
+
+#bottom-heading {
+  color:white;
+}
+
+#lettera {
+  content: url("images/letter-A-carambolax.png");
+}
+
+#lettera::after {
+  /*moz*/
+  content: url("images/letter-A-carambolax.png");
+}
+
+#letterb {
+  content: url("images/letter-B-carambolax.png");
+}
+
+#letterb::after {
+  /*moz*/
+  content: url("images/letter-B-carambolax.png");
+}
+
+#letterc {
+  content: url("images/letter-C-carambolax.png");
+}
+
+#letterc::after {
+  /*moz*/
+  content: url("images/letter-C-carambolax.png");
+}
+
+#letterd {
+  content: url("images/letter-D-carambolax.png");
+}
+
+#letterd::after {
+  /*moz*/
+  content: url("images/letter-D-carambolax.png");
+}

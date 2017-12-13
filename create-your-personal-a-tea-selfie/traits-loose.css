@@ -1,0 +1,135 @@
+#designx {
+float: left;
+}
+
+#p1 {
+float: left;
+}
+
+#p2 {
+float: left;
+}
+
+#p3 {
+float: left;
+}
+
+#p4 {
+float: left;
+}
+
+#mbga {
+    position: absolute;
+    top: 50px;
+    width: 400px;
+    height: 400px;}
+#image0 {
+    position: absolute;
+    top: 50px;
+    width: 400px;
+    height: 300px;}
+#image1 {
+    position: absolute;
+    top: 50px;
+    width: 400px;
+    height: 300px;}
+#image2 {
+    position: absolute;
+    top: 50px;
+    width: 400px;
+    height: 300px;;
+}
+#image3 {
+    position: absolute;
+    top: 50px;
+    width: 400px;
+    height: 300px;;
+}
+#image4 {
+    position: absolute;
+    top: 50px;
+    width: 400px;
+    height: 300px;;
+}
+#design {
+    position: absolute;
+    top: 53px;
+    width: 400px;
+    height: 400px;
+    text-align: left;
+    margin-left: 3px;
+    background-image: url('jsp-loose-leaf-tea-euro-special-male.jpg');
+}
+
+#design-female {
+    position: absolute;
+    top: 53px;
+    width: 400px;
+    height: 400px;
+    text-align: left;
+    margin-left: 3px;
+    background-image: url('jsp-loose-leaf-tea-euro-special-female.jpg');
+}
+
+#personality-a {
+    position: absolute;
+    top: 95px;
+    width: 400px;
+    height: 50px;
+    text-align: left;
+    margin-left: 50px;
+    font-size: 140%;
+    color: #8c6239;
+}
+
+#personality-b {
+    position: absolute;
+    top: 80px;
+    width: 400px;
+    height: 50px;
+    text-align: left;
+    margin-left: 130px;
+    font-size: 140%;
+    color: #8c6239;
+}
+#personality-c {
+    position: absolute;
+    top: 75px;
+    width: 400px;
+    height: 50px;
+    text-align: right;
+    margin-left: -135px;
+    font-size: 140%;
+    color: #8c6239;
+}
+#personality-d {
+    position: absolute;
+    top: 80px;
+    width: 400px;
+    height: 50px;
+    text-align: right;
+    margin-left: -30px;
+    font-size: 140%;
+    color: #8c6239;
+}
+#nameMugArea {
+    position: absolute;
+    top: 410px;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    font-size: 200%;
+    color: #8c6239;
+}
+
+#checkAvatare {
+    width: 400px;
+    height: auto;
+    text-align: center;
+    font-size: 200%;
+    color: #777;
+}
+
+#gift {
+display: none;
+}
